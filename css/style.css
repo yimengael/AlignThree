@@ -1,0 +1,155 @@
+* {
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigationBar {
+    width: 1500px;
+    height: 45px;
+    /*border: 1px solid black;*/
+}
+
+#navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navigationBar ul li {
+    float: left;
+}
+
+#navigationBar ul li a {
+    display: block;
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigationBar ul li a:hover {
+    background-color: #111;
+}
+
+#wrapper {
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+#imageHeader {
+    width: 990px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+#mainContent {
+    width: 990px;
+    height: 680px;
+    border: 1px solid black;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+#leftSide {
+    width: 170px;
+    height: 665px;
+    margin: 5px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#middleSide {
+    width: 615px;
+    height: 665px;
+    margin: 5px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#rightSide {
+    width: 170px;
+    height: 665px;
+    margin: 5px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#leftSide, #middleSide, #rightSide {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gameTable {
+    width: 500px;
+    height: 500px;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.cellOfGame {
+    width: 155px;
+    height: 155px;
+    margin: 5px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: #00ffff;
+}
+
+#winnerTable {
+    width: 600px;
+    height: 145px;
+    margin: 5px 0px 0px 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    width: 1500px;
+    height: 45px;
+    /*border: 1px solid black;*/
+    background-color: #333;
+}
+
+#footer p {
+    color: white;
+    font-family: tahoma;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}

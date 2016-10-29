@@ -1,0 +1,29 @@
+lorsque le jeu demarre
+	- Initialisation du tableau du jeu [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+	- jeu de la machine dans la cellule 1-1 du tableau avec la valeur 1 : [[0, 0, 0], [0, 1, 0], [0, 0, 0]]
+	- Initialiser une variable de comptage du nombre de fois que le player a deja joué (nbStepsPlayer) à 0
+	- Initialiser une variable de comptage du nombre de fois que l'ordinateur a deja joué (nbStepsComputer) à 1
+	- Colorier la DIV correspondante au jeu initial de l'ordinateur dans la page web.
+	
+	
+lorsque le PLAYER joue
+	
+	- Clique sur une DIV dans la page Web
+	- colorier la DIV qu'il a cliqué si elle n'est pas encore occupée
+	  si la DIV est deja occupée alors
+		envoyer une alerte pour dire de jouer une autre DIV
+	  fsi
+	- nbStepsPlayer++
+	- modifier la valeur de la cellule dans le tableau par la valeur 2 : [[0, 0, 0], [0, 1, 0], [0, 0, 2]]
+	- executer la fonction pour verifier si il y a un alignement de 3 valeurs identiques
+	s'il y a un alignement de trois "2" PLAYER a gagné
+		
+
+lorsque le COMPUTER joue
+	
+	- Rechercher une DIV qui n'est pas encore occupée et qui donne plus de chance a COMPUTER de gagner ou de bloquer le PLAYER
+	- colorier la DIV selectionné avec la couleur du computer pour la marquer occupée
+	- nbStepsComputer++
+	- modifier la valeur de la cellule dans le tableau par la valeur 1 : [[0, 1, 0], [0, 1, 0], [0, 0, 2]]
+	- executer la fonction pour verifier si il y a un alignement de 3 valeurs identiques
+	s'il y a un alignement de trois "1" COMPUTER a gagné
