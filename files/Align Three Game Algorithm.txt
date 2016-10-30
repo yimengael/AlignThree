@@ -27,3 +27,16 @@ lorsque le COMPUTER joue
 	- modifier la valeur de la cellule dans le tableau par la valeur 1 : [[0, 1, 0], [0, 1, 0], [0, 0, 2]]
 	- executer la fonction pour verifier si il y a un alignement de 3 valeurs identiques
 	s'il y a un alignement de trois "1" COMPUTER a gagné
+	
+	
+Principles of the game 
+
+	si (TABLEAU PLEIN) alors
+		retourner le message "GAME OVER"
+	sinon
+		si (ALIGNEMENT pour PLAYER) alors
+			retourner le message "YOU ARE THE WINNER"
+		sinon
+			
+		fsi
+	fsi
