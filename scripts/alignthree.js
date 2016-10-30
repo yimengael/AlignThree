@@ -185,13 +185,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -261,13 +268,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -337,13 +351,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -417,13 +438,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -493,13 +521,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -569,13 +604,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -649,13 +691,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -725,13 +774,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
@@ -801,13 +857,20 @@ $(document).ready(function () {
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
                     console.log('nbStepsComputer : ', nbStepsComputer);
                 } else {
-                    arr = [];
-                    console.log('Initial value of the Array : ', arr.toString());
-                    getTheThirdFreeCell(arr, gameArray, 1);
-                    console.table('Array From getTheThirdFreeCell : ', arr.toString());
-                    $('#'+getTheDivKnowingIandJ(arr[0], arr[1])).css('background-color', generate_color(1));
+                    // arr = [];
+                    // console.log('Initial value of the Array : ', arr.toString());
+                    // getTheThirdFreeCell(arr, gameArray, 1);
+                    // console.table('Array From getTheThirdFreeCell : ', arr.toString());
+
+                    var a = Math.floor((Math.random() * 3));
+                    var b = Math.floor((Math.random() * 3));
+                    while (gameArray[a][b] !== 0) {
+                        var a = Math.floor((Math.random() * 3));
+                        var b = Math.floor((Math.random() * 3));
+                    }
+                    $('#'+getTheDivKnowingIandJ(a, b)).css('background-color', generate_color(1));
                     nbStepsComputer++;
-                    gameArray[arr[0]][arr[1]] = 1;
+                    gameArray[a][b] = 1;
 
                     console.table(gameArray);
                     console.log('nbStepsPlayer : ', nbStepsPlayer);
